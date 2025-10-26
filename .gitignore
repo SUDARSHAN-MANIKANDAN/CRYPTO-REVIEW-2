@@ -1,1 +1,15 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore uploads folder
+uploads/
+
+# Ignore chain.json (optional, if you don't want it on GitHub)
+chain.json
+
+# Ignore private key
 private.pem
+
+# Ignore environment files
+.env
